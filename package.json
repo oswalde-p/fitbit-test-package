@@ -1,0 +1,26 @@
+{
+  "name": "fitbit-test-package",
+  "version": "0.1.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@fitbit/sdk": "~4.2.1",
+    "@fitbit/sdk-cli": "^1.7.3"
+  },
+  "fitbit": {
+    "appUUID": "acd036ef-d243-4809-8da0-4de56c36d1dc",
+    "appType": "app",
+    "appDisplayName": "Fitbit Test Package",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#ffffff",
+    "requestedPermissions": [],
+    "buildTargets": [
+      "meson"
+    ],
+    "i18n": {},
+    "defaultLanguage": "en-US"
+  },
+  "scripts": {
+    "debug": "fitbit"
+  }
+}
