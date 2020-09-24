@@ -1,5 +1,7 @@
-import * as device from "./app/index";
+import * as app from "./app/index";
+import * as companion from "./companion/index"
 
 export {
-    device
+    app,
+    companion
 }
