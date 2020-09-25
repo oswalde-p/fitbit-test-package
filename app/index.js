@@ -6,6 +6,18 @@ const myFunction = function() {
     console.log("type:             " + device.type);
 }
 
+class MyClass {
+    constructor(name) {
+        this.name = name
+    }
+}
+
+const myCreatorFunction = function(name) {
+    return new MyClass(name)
+}
+
 export {
-    myFunction
+    myFunction,
+    MyClass,
+    myCreatorFunction
 }
